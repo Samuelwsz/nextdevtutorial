@@ -37,6 +37,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Dependencies
 
+### themes
+
+https://github.com/pacocoursey/next-themes
+
+```
+npm install next-themes
+```
+
 https://ui.shadcn.com/docs/installation/next
 
 ```
@@ -81,6 +89,97 @@ https://tailwindcss.com/docs/typography-plugin
 
 ```
 npm install -D @tailwindcss/typography
+```
+
+### cta sections
+
+https://tailwindui.com/components/marketing/sections/cta-sections
+
+### tailwind.config.js
+
+```
+const { fontFamily } = require("tailwindcss/defaultTheme")
+```
+
+```
+fontFamily: {
+  sans: ["var(--font-sans)", ...fontFamily.sans],
+  heading: ["var(--font-heading)", ...fontFamily.sans],
+},
+```
+
+```
+plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
+```
+
+### separator
+
+https://ui.shadcn.com/docs/components/separator
+
+```
+npx shadcn-ui@latest add separator
+```
+
+### react hook mask
+
+https://www.npmjs.com/package/@react-input/mask
+
+```
+npm install react-input-mask --save
+```
+
+### react hook form
+
+https://react-hook-form.com/get-started
+
+```
+npm install react-hook-form
+```
+
+### zod
+
+https://zod.dev/?id=from-npm-nodebun
+
+```
+npm install zod
+```
+
+https://www.npmjs.com/package/@hookform/resolvers
+
+```
+npm install @hookform/resolvers
+```
+
+### react dom confetti
+
+https://www.npmjs.com/package/react-dom-confetti
+
+```
+npm i react-dom-confetti
+```
+
+### dialog
+
+https://ui.shadcn.com/docs/components/dialog
+
+```
+npx shadcn-ui@latest add dialog
+```
+
+### form
+
+https://ui.shadcn.com/docs/components/form
+
+```
+npx shadcn-ui@latest add form
+```
+
+### input
+
+https://ui.shadcn.com/docs/components/input
+
+```
+npx shadcn-ui@latest add input
 ```
 
 tailwind config.ts padrao
