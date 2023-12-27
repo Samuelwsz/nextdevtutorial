@@ -27,7 +27,7 @@ import {
 import { Input } from "@/components/ui/input"
 import { useState } from "react"
 
-import { saveLead } from "../actions"
+import { saveLead } from "@/actions"
 
 const formScheme = z.object({
   name: z
